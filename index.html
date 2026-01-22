@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Govind Vaid - Portfolio" />
+
+  <title>Govind Vaid — Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="#home" aria-label="Home">
+          <h1 class="logo">Govind<span class="accent"> Vaid</span></h1>
+        </a>
+        <p class="sub">BSc Computer Science • Data Analytics & Software</p>
+      </div>
+
+      <nav class="nav" aria-label="Main Navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+          <span class="hamburger"></span>
+        </button>
+
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="header-actions">
+          <button id="theme-toggle" aria-pressed="false" title="Toggle theme">🌙</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Hi — I'm</p>
+          <h2 class="hero-title">Govind <span class="accent">Vaid</span></h2>
+          <p class="hero-sub">
+            <span id="typed"></span>
+          </p>
+          <p class="lead">
+            I'm a 3rd-year BSc Computer Science student focused on Java, Data Analytics, and building practical software projects. I like turning ideas into clean, maintainable code.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn ghost" href="mailto:govind@example.com?subject=Hello%20Govind">Contact Me</a>
+            <a class="btn outline" href="resume.pdf" download>Download Resume</a>
+          </div>
+
+          <div class="socials">
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="mailto:govind@example.com">Email</a>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-hidden="false">
+          <div class="card-inner">
+            <!-- Replace image with your own avatar/photo if you want -->
+            <div class="avatar" role="img" aria-label="Govind's avatar">
+              <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#6a5cff"/><stop offset="1" stop-color="#00c2ff"/></linearGradient></defs>
+                <circle cx="60" cy="40" r="26" fill="url(#g)"/>
+                <rect x="16" y="74" width="88" height="30" rx="8" fill="#f0f4ff"/>
+              </svg>
+            </div>
+            <div class="card-meta">
+              <h3>Open for internships & projects</h3>
+              <p>Currently studying BSc Computer Science • Interested in Java, Data Science & App Development.</p>
+              <div class="card-stats">
+                <div><strong>5+</strong><span> Projects</span></div>
+                <div><strong>Java</strong><span> • DSA</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-grid">
+          <div>
+            <h2>About me</h2>
+            <p>
+              I'm a 3rd-year BSc Computer Science student building practical software and data projects. I work with Java, Python, and web technologies. My interest areas: data analytics, algorithms & competitive programming, and mobile app development.
+            </p>
+
+            <ul class="about-list">
+              <li><strong>Education:</strong> BSc Computer Science (Third Year)</li>
+              <li><strong>Interests:</strong> Data Analytics, Web & Mobile Apps, Algorithms</li>
+              <li><strong>Location:</strong> India</li>
+            </ul>
+
+            <a class="btn primary" href="#contact">Get in touch</a>
+          </div>
+
+          <div class="skills-highlights">
+            <h3>Quick facts</h3>
+            <dl>
+              <dt>Favorite stack</dt>
+              <dd>Java • Spring Boot • Python • Flask • React</dd>
+
+              <dt>Current project</dt>
+              <dd>AI-powered quiz system with adaptive difficulty (prototype)</dd>
+
+              <dt>Tooling</dt>
+              <dd>Git, VS Code, MySQL, Jupyter</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <p class="muted">Technical skills and proficiencies</p>
+
+        <div class="skill-grid">
+          <div class="skill">
+            <h4>Languages</h4>
+            <p>Java, Python, JavaScript, SQL, C</p>
+          </div>
+          <div class="skill">
+            <h4>Web</h4>
+            <p>HTML5, CSS3, React (basic), Flask</p>
+          </div>
+          <div class="skill">
+            <h4>Data</h4>
+            <p>Data Analytics, Pandas, NumPy, Matplotlib</p>
+          </div>
+          <div class="skill">
+            <h4>Concepts</h4>
+            <p>DSA, OOP, Databases, Algorithms</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Selected projects</h2>
+        <p class="muted">Projects with short descriptions and links — replace with your own.</p>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card" data-id="1">
+            <div class="project-content">
+              <h3>AI Quiz — Adaptive Difficulty</h3>
+              <p>Java + Python backend prototype that adjusts question difficulty based on user's performance. Includes analytics dashboard.</p>
+              <div class="project-tags"><span>Java</span><span>Machine Learning</span><span>Flask</span></div>
+              <div class="project-actions">
+                <a class="btn small" href="https://github.com/yourusername/ai-quiz" target="_blank" rel="noopener">View Code</a>
+                <button class="btn small outline project-open" data-id="1">More</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card" data-id="2">
+            <div class="project-content">
+              <h3>Data Analytics Dashboard</h3>
+              <p>End-to-end data cleaning, EDA and visualization using Pandas & Matplotlib. Interactive Jupyter notebooks included.</p>
+              <div class="project-tags"><span>Python</span><span>Pandas</span><span>EDA</span></div>
+              <div class="project-actions">
+                <a class="btn small" href="https://github.com/yourusername/data-dashboard" target="_blank" rel="noopener">View Code</a>
+                <button class="btn small outline project-open" data-id="2">More</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card" data-id="3">
+            <div class="project-content">
+              <h3>Mobile App: Notes Manager (Prototype)</h3>
+              <p>Simple notes app built for Android — features local storage and search. Good demo for mobile UI & data persistence.</p>
+              <div class="project-tags"><span>Android</span><span>Java</span><span>SQLite</span></div>
+              <div class="project-actions">
+                <a class="btn small" href="https://github.com/yourusername/notes-app" target="_blank" rel="noopener">View Code</a>
+                <button class="btn small outline project-open" data-id="3">More</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="muted">Want to work together? Send a message or email me.</p>
+
+        <div class="contact-grid">
+          <form id="contact-form" class="contact-form" novalidate>
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" id="name" required placeholder="Your name">
+            </label>
+
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" id="email" required placeholder="you@example.com">
+            </label>
+
+            <label>
+              <span>Message</span>
+              <textarea name="message" id="message" rows="6" required placeholder="Hi Govind — I wanted to reach out about..."></textarea>
+            </label>
+
+            <div class="form-actions">
+              <button class="btn primary" type="submit">Send message</button>
+              <button class="btn ghost" type="reset">Reset</button>
+            </div>
+            <p id="form-status" aria-live="polite"></p>
+          </form>
+
+          <div class="contact-info">
+            <h3>Other ways to reach me</h3>
+            <p><strong>Email</strong><br><a href="mailto:govind@example.com">govind@example.com</a></p>
+            <p><strong>LinkedIn</strong><br><a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener">linkedin.com/in/yourprofile</a></p>
+            <p><strong>GitHub</strong><br><a href="https://github.com/yourusername" target="_blank" rel="noopener">github.com/yourusername</a></p>
+            <div class="tiny-note">Tip: Replace placeholders (email, links, resume.pdf) with your real files & URLs.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Govind Vaid — Built with ♥ • <a href="#top">Back to top</a></p>
+    </div>
+  </footer>
+
+  <!-- Project modal -->
+  <div id="project-modal" class="modal" aria-hidden="true">
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" aria-label="Close project details">✕</button>
+      <div class="modal-body">
+        <h3 id="modal-title">Project title</h3>
+        <p id="modal-desc">Project description</p>
+        <p id="modal-tech" class="muted"></p>
+        <div id="modal-links"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="zx.js" defer></script>
+</body>
+</html>
